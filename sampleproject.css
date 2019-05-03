@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	background-color: whitesmoke;
+	background-image: url(pattern.png);
+	
+}
+
+.main{
+	background: #ddd;
+	width: 400px;
+	height: 175px;
+	margin: 100px auto;
+	position:relative;
+	padding:30px;
+}
+
+.badge{
+	background-color: #e66357;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	font-weight:bold; 
+	width: 96px;
+	position: absolute;
+	top: -15px;
+	left:40%;
+
+}
+
+.clock{
+	background-color:EBEBEB;
+	text-align: center;
+	font-size:55px;
+	padding-top: 30px;
+	height: 100%;
+	font-family: 'Orbitron', sans-serif;
+}
